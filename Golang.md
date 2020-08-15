@@ -7,5 +7,15 @@
 * GO111MODULE=on/off/auto [To turn off/on/auto GOMOD. In auto mode similary to GO111MODULE=on when you're outside of GOPATH, similarly to GO111MODI ] 
 
 # MongoDB
-* Checkout this solution but first below command: https://askubuntu.com/questions/856073/mongod-unrecognized-service-mongod-service-is-present-already
+* Checkout this solution but first try below command: https://askubuntu.com/questions/856073/mongod-unrecognized-service-mongod-service-is-present-already
 * Start mongodb : sudo mongod --fork --logpath /var/log/mongodb.log
+
+# Git Commands.
+* git branch -v
+* git checkout -b new_branch_name  
+* git checkout branch_to_switch
+* git status
+* git log
+* git add .
+* git commit -m "your_message"
+* git push origin branch_name
