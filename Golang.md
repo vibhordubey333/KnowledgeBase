@@ -19,3 +19,8 @@
 * git add .
 * git commit -m "your_message"
 * git push origin branch_name
+
+#Linux
+* Killing process by providing process ID: kill 1293
+* Killing process by providing process name : pkill firefox
+* Running process in background : firefox&
