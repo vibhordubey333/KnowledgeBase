@@ -32,7 +32,7 @@
 * grep -inrw "search_string"
 * find / -name "file_name_to_search"
 
-## Installing minikube on Antix , host : windows 7
+## Installing minikube on VirtualMachine(Os: Antix) , Host : windows 7
 
 * Disable virtualization(VT-X/AMD-v) and PA-NX in virtual machine . As windows 7 doesn't have VT-X flag if it has in your case disable it.
 * sudo apt install conntrack
