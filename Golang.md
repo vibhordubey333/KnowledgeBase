@@ -38,3 +38,8 @@
 * sudo apt install conntrack
 * sudo minikube start --driver=none
 
+# Docker.
+* To save an Image locally as tar : docker save hello-world > hello-world.tar 
+* To extract above tar : tar -xfv hello-world.tar
+
+
