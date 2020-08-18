@@ -20,12 +20,15 @@
 * git commit -m "your_message"
 * git push origin branch_name
 * git diff
+* git remote add origin https://github.com/vibhordubey333/GITCheatSheet.git
+* git remote set-url origin https://github.com/vibhordubey333/GITCheatSheet.git
 
 # Linux
 * Killing process by providing process ID: kill 1293
 * Killing process by providing process name : pkill firefox
 * Running process in background : firefox&
 * Find if port is in use : netstat -apn | grep 7777
+* scp file_name root@172.90.91.120:/tmp
 
 ## Grep and Find
 * grep -inr "search_tring"
