@@ -30,6 +30,11 @@
 * Find if port is in use : netstat -apn | grep 7777
 * scp file_name root@172.90.91.120:/tmp
 
+## Removing and Installing packages in Linux.
+* sudo apt-get remove golang-1.6-src
+* dpkg --list | grep golang-1.6-src
+* dpkg -i package_to_install
+
 ## Grep and Find
 * grep -inr "search_tring"
 * grep -inrw "search_string"
