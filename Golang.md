@@ -33,6 +33,8 @@
 ## Session in Linux
 * Check session : who 
 * Detailed information : w
+* If multiple users are using like liteide then : pkill liteide
+* To crash other people session identify shell they are using then: pkill bash
 
 ## Removing and Installing packages in Linux.
 * sudo apt-get remove golang-1.6-src
