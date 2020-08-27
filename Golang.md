@@ -54,6 +54,9 @@
 
 # Docker.
 * To save an Image locally as tar : docker save hello-world > hello-world.tar 
-* To extract above tar : tar -xfv hello-world.tar
+* To extract above tar : tar -xfv hello-world.tar'
+
+# Swagger.
+* ./swagger_windows_amd64 generate server -f ./api/sfc_swagger.yml -A sfc
 
 
