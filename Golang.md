@@ -22,6 +22,9 @@
 * git diff
 * git remote add origin https://github.com/vibhordubey333/GITCheatSheet.git
 * git remote set-url origin https://github.com/vibhordubey333/GITCheatSheet.git
+## Rebase [To sync the changes with other branch.]
+* git checkout feature/movies_comment
+* git rebase master
 
 # Linux
 * Killing process by providing process ID: kill 1293
