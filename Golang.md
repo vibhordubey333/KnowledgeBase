@@ -57,6 +57,9 @@
 * Disable virtualization(VT-X/AMD-v) and PA-NX in virtual machine . As windows 7 doesn't have VT-X flag if it has in your case disable it.
 * sudo apt install conntrack
 * sudo minikube start --driver=none
+* kubectl exec -tin test mongoPodName -- mongo
+* kubectl port-forward -n test service/sfc-service 10128:10128 --address=0.0.0.0
+
 
 # Docker.
 * To save an Image locally as tar : docker save hello-world > hello-world.tar 
