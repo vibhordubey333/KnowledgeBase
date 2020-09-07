@@ -60,6 +60,8 @@
 * kubectl exec -tin test mongoPodName -- mongo
 * kubectl port-forward -n test service/sfc-service 10128:10128 --address=0.0.0.0
 
+# HelmChart
+* helm uninstall test -n test && helm uninstall test -n imec-test
 
 # Docker.
 * To save an Image locally as tar : docker save hello-world > hello-world.tar 
@@ -67,5 +69,7 @@
 
 # Swagger.
 * ./swagger_windows_amd64 generate server -f ./api/sfc_swagger.yml -A sfc
+
+
 
 
