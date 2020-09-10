@@ -58,8 +58,16 @@
 * Disable virtualization(VT-X/AMD-v) and PA-NX in virtual machine . As windows 7 doesn't have VT-X flag if it has in your case disable it.
 * sudo apt install conntrack
 * sudo minikube start --driver=none
+
+## K8s commands.
+
 * kubectl exec -tin test mongoPodName -- mongo
 * kubectl port-forward -n test service/sfc-service 10128:10128 --address=0.0.0.0
+* kubectl get po --all-namespaces |  grep auth
+* kubectl get pods --namespace namespace_name  [To search in a particular namespace]
+* kubectl describe pods --namespace namespace_name [To describe all pods from a namespace]
+* kubectl describe pods pod-name --namespace namespace-name [To describe a specific pod.] 
+
 
 # HelmChart
 * helm uninstall test -n test && helm uninstall test -n imec-test
