@@ -68,7 +68,7 @@
 * kubectl describe pods --namespace namespace_name [To describe all pods from a namespace]
 * kubectl describe pods pod-name --namespace namespace-name [To describe a specific pod.] 
 * kubectl get pods --namespace namespace_name --watch  [To search in a particular namespace and watch them as there status change]
-
+* kubectl delete pv -n imec-test [Deleting persistant volume.]
 
 # HelmChart
 * helm uninstall test -n test && helm uninstall test -n imec-test
