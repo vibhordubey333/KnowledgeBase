@@ -70,6 +70,7 @@
 * kubectl get pods --namespace namespace_name --watch  [To search in a particular namespace and watch them as there status change]
 * kubectl delete pv -n imec-test [Deleting persistant volume.]
 * kubectl delete pod pod-name --namespace namespace_name
+* kubectl delete pod <podname>
 
 # HelmChart
 * helm uninstall test -n test && helm uninstall test -n imec-test
