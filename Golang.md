@@ -71,6 +71,12 @@
 * kubectl delete pv -n imec-test [Deleting persistant volume.]
 * kubectl delete pod pod-name --namespace namespace_name
 * kubectl delete pod pod_name
+* Kubernetes error "The connection to the server <host>:6643 was refused:"
+  sudo -i
+  swapoff -a
+  exit
+  strace -eopenat kubectl version
+  
 
 # HelmChart
 * helm uninstall test -n test && helm uninstall test -n imec-test
