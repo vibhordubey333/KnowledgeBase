@@ -76,7 +76,7 @@
   swapoff -a
   exit
   strace -eopenat kubectl version
-  
+* kubectl logs pod_name -n namespace_name > log.txt
 
 # HelmChart
 * helm uninstall test -n test && helm uninstall test -n imec-test
