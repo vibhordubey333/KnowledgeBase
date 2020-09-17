@@ -72,10 +72,8 @@
 * kubectl delete pod pod-name --namespace namespace_name
 * kubectl delete pod pod_name
 * Kubernetes error "The connection to the server <host>:6643 was refused:"
-  sudo -i
-  swapoff -a
-  exit
-  strace -eopenat kubectl version
+  - sudo -i && swapoff -a && exit
+  - strace -eopenat kubectl version
 * kubectl logs pod_name -n namespace_name > log.txt
 
 # HelmChart
