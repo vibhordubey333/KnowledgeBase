@@ -53,6 +53,11 @@
 * grep -inrw "search_string"
 * find / -name "file_name_to_search"
 
+## Dpkg fix.
+* sudo dpkg --configure -a   [Instruct dpkg to fix iteself.]
+  - sudo apt-get -f install  [Correct dependecies problem.]
+  - sudo apt install libavahi-glib1 --reinstall [Reinstall the problamatic package.]
+
 ## Installing minikube on VirtualMachine(Os: Antix) , Host : windows 7
 
 * Disable virtualization(VT-X/AMD-v) and PA-NX in virtual machine . As windows 7 doesn't have VT-X flag if it has in your case disable it.
