@@ -91,6 +91,10 @@
 # Swagger.
 * ./swagger_windows_amd64 generate server -f ./api/sfc_swagger.yml -A sfc
 
+# Windows Commands(Win 10)
+
+* For checking if the port is being used by another process it returns with PID -> netstat -a -n -o | findstr :8085
+
 
 
 
