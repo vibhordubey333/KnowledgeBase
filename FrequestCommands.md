@@ -104,6 +104,7 @@
   - docker tag ubuntu altimauthserver.com:6010/ubuntu
   - docker push altimauthserver.com:6010/ubuntu
 * docker info
+* docker tag image_name new_image_tag_name
   
 # Kompose Tool.
 * chmod +x kompose_binary_name
