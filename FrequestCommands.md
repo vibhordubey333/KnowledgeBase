@@ -25,6 +25,7 @@
 * git branch -d localBranchName  // delete branch locally 
 * git push origin --delete remoteBranchName // delete branch remotely
 * To sync changes with master branch or other branch -> git pull origin branch_name
+* git pull origin branch_name
 
 ## Rebase [To sync the changes with other branch.]
 * git checkout feature/movies_comment
