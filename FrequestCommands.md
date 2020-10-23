@@ -118,6 +118,13 @@
 
 * For checking if the port is being used by another process it returns with PID -> netstat -a -n -o | findstr :8085
 
-
+# VSCode [Golang Settings For Faster Suggestions.]
+* Paste below settings in settings.json, important is language server settings.
+  {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "window.zoomLevel": 3,
+    "go.useLanguageServer": true
+   }
 
 
