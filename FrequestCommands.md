@@ -27,6 +27,7 @@
 * To sync changes with master branch or other branch -> git pull origin branch_name
 * git pull origin branch_name
 * Delete local branch [Forcefully] : git branch -D branch_name
+* git commit --amend -m "New commit message."
 
 ## Rebase [To sync the changes with other branch.]
 * git checkout feature/movies_comment
