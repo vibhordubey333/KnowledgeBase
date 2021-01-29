@@ -119,6 +119,9 @@
 # Windows Commands(Win 10)
 
 * For checking if the port is being used by another process it returns with PID -> netstat -a -n -o | findstr :8085
+* Fireup powershell 
+  - Get-NetTCPConnection -LocalPort 9091 | Format-Table -Property LocalAddress, LocalPort, State, OwningProcess
+  - taskkill /F /PID 17484
 
 # VSCode [Golang Settings For Faster Suggestions.]
 * Paste below settings in settings.json, important is language server settings.
