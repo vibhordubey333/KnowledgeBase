@@ -28,6 +28,13 @@
 * git pull origin branch_name
 * Delete local branch [Forcefully] : git branch -D branch_name
 * git commit --amend -m "New commit message."
+* Removing Merge conflicts:
+  - Configure "git mergetool"
+  - Fire "git mergetool"
+  - After conflicts are resolved do below.
+    - git add .
+    - git commit 
+    - git push origin branch_name
 
 ## Rebase [To sync the changes with other branch.]
 * git checkout feature/movies_comment
