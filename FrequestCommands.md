@@ -35,6 +35,8 @@
     - git add .
     - git commit 
     - git push origin branch_name
+ * To fetch remote refs,commits from remote
+    - git fetch -a
 
 ## Rebase [To sync the changes with other branch.]
 * git checkout feature/movies_comment
