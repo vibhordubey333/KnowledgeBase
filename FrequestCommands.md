@@ -38,6 +38,10 @@
     - git push origin branch_name
  * To fetch remote refs,commits from remote
     - git fetch -a
+ * Git Stash : https://www.linuxfordevices.com/tutorials/linux/git-stash
+ * Merge Conflits Remocing Manually
+   - Everything between <<<<<<< and ======= is what was in one file, and
+   - Everything between ======= and >>>>>>> is what was in the other file
 
 ## Rebase [To sync the changes with other branch.]
 * git checkout feature/movies_comment
