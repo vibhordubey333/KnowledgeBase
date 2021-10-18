@@ -45,6 +45,8 @@
  * To resolve Carrige Return Line Feed [CRLF ] windows
    - git config --list
    - git config --global core.autocrlf false
+ * To refer to private hosted library
+   - git config --global url."git@github.org_name.com:".insteadof "https://github.org_name.com"
 
 ## Rebase [To sync the changes with other branch.]
 * git checkout feature/movies_comment
