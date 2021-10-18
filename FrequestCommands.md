@@ -42,6 +42,9 @@
  * Merge Conflits Remocing Manually
    - Everything between <<<<<<< and ======= is what was in one file, and
    - Everything between ======= and >>>>>>> is what was in the other file
+ * To resolve Carrige Return Line Feed [CRLF ] windows
+   - git config --list
+   - git config --global core.autocrlf false
 
 ## Rebase [To sync the changes with other branch.]
 * git checkout feature/movies_comment
