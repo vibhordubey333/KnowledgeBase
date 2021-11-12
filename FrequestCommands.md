@@ -47,6 +47,9 @@
    - git config --global core.autocrlf false
  * To refer to private hosted library
    - git config --global url."git@github.org_name.com:".insteadof "https://github.org_name.com"
+ * Configuring name and email in git.
+    - Change Git user name by running: git config user.name “Your Name”
+    - Change Git user email by running: git config user.email “name@email.com”
 
 ## Rebase [To sync the changes with other branch.]
 * git checkout feature/movies_comment
