@@ -156,7 +156,16 @@
     "window.zoomLevel": 3,
     "go.useLanguageServer": true
    }
-
+* For setting up bash as your default terminal, mention settings in settings.json
+  {
+  //   "go.toolsManagement.autoUpdate": true,
+  "terminal.integrated.profiles.windows": {
+    "My Bash": {
+      "path": "D:\\1. Installed_Software\\Git\\bin\\bash.exe",
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "My Bash",
+}
 #Linux Tweaks
 * Configuring nameserver if ubuntu server is not rechable.
   https://askubuntu.com/questions/91543/apt-get-update-fails-to-fetch-files-temporary-failure-resolving-error
