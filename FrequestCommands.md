@@ -50,7 +50,9 @@
  * Configuring name and email in git.
     - Change Git user name by running: git config user.name “Your Name”
     - Change Git user email by running: git config user.email “name@email.com”
-
+ * Checking code which went with the commit
+    - git show HEAD
+    - git show commit_id
 ## Rebase [To sync the changes with other branch.]
 * git checkout feature/movies_comment
 * git rebase master
