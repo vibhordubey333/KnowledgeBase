@@ -171,3 +171,6 @@
 #Linux Tweaks
 * Configuring nameserver if ubuntu server is not rechable.
   https://askubuntu.com/questions/91543/apt-get-update-fails-to-fetch-files-temporary-failure-resolving-error
+  
+# Termux
+  pkg install wget
