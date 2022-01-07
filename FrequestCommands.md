@@ -174,3 +174,6 @@
   
 # Termux
   pkg install wget
+
+# Elastic Search
+   - For windows: ./elasticsearch.bat -Ecluster.name="vibhor.tests" -Enode.name=my_first_node
