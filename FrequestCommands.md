@@ -187,4 +187,5 @@
   - 7. Use RDP to connect. 
 # Metasploit
   - sudo apt install metasploit-framework postgresql
+  - msfconsole
   
