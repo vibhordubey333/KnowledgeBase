@@ -177,3 +177,14 @@
 
 # Elastic Search
    - For windows: ./elasticsearch.bat -Ecluster.name="vibhor.tests" -Enode.name=my_first_node
+# Installing Kali Linux WSL2
+  - 1. Install kali linux from microsoft store.
+  - 2. sudo apt update && sudo apt upgrade -y
+  - 3. sudo apt install kali-desktop-xfce -y
+  - 4. sudo apt install xrdp -y
+  - 5. sudo service xrdp start
+  - 6. ip addr
+  - 7. Use RDP to connect. 
+# Metasploit
+  - sudo apt install metasploit-framework postgresql
+  
