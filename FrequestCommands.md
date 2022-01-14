@@ -177,6 +177,9 @@
 
 # Elastic Search
    - For windows: ./elasticsearch.bat -Ecluster.name="vibhor.tests" -Enode.name=my_first_node
+   - For checking health status.
+     - localhost:9200/_cat/health?v&pretty
+     - localhost:9200
 # Installing Kali Linux WSL2
   - 1. Install kali linux from microsoft store.
   - 2. sudo apt update && sudo apt upgrade -y
