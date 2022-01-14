@@ -180,6 +180,8 @@
    - For checking health status.
      - localhost:9200/_cat/health?v&pretty
      - localhost:9200
+   - Creating indices
+     - curl -XPUT 'localhost:9200/products?&pretty'
 # Installing Kali Linux WSL2
   - 1. Install kali linux from microsoft store.
   - 2. sudo apt update && sudo apt upgrade -y
