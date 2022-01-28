@@ -206,7 +206,7 @@
       	- curl -XDELETE 'localhost:9200/product/laptops/1?pretty'
       	- Whenever deletion operation is done it doesn't get deleted instantly. It is marked for deletion then later on when merge  happens behind the scenes to consolidate space then it happens.
 	    - To delete the entire index just mention the index.
-	      curl -XDELETE 'localhost:9200/product/laptops?pretty'
+	      - curl -XDELETE 'localhost:9200/product/laptops?pretty'
       
        
 # Installing Kali Linux WSL2
