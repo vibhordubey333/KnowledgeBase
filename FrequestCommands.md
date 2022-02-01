@@ -1,4 +1,4 @@
-# Package Management.
+# Package Management In Golang.
 * go mod init project_name [Initializes project.]
 * go get package_name
 * go list -m all [List all the dependencies .]
@@ -6,6 +6,8 @@
 * go mod tidy [Remove unsed dependencies]
 * GO111MODULE=on/off/auto [To turn off/on/auto GOMOD. In auto mode similary to GO111MODULE=on when you're outside of GOPATH, similarly to GO111MODI ] 
 * GOOS=linux GOARCH=amd64 go build -o main main.go
+* To fix issue "410 Gone" in GO mod
+   `export GO111MODULE=on && export GOPROXY=direct && export GOSUMDB=off`
 
 # MongoDB.
 * Checkout this solution but first try below command: https://askubuntu.com/questions/856073/mongod-unrecognized-service-mongod-service-is-present-already
