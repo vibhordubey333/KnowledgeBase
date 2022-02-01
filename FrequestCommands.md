@@ -63,6 +63,16 @@
 * Running process in background : firefox&
 * Find if port is in use : netstat -apn | grep 7777
 * scp file_name root@172.90.91.120:/tmp
+* Displaying branch name in linux terminal:
+  1. vim ~/.bashrc
+  2. Paste in bashrc file
+  	```
+  	git_branch() {
+  	git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+	}
+	export PS1="\e[1m\e[32m\u@\h\e[0m\e[0m:\e[1m\e[34m\w\e[0m\e[1;33m\$(git_branch)\e[0m\$ "
+  	```
+  3. source ~/.bashrc
 
 ## Session in Linux
 * Check session : who 
