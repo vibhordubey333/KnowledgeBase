@@ -120,6 +120,8 @@
   - sudo -i && swapoff -a && exit
   - strace -eopenat kubectl version
 * kubectl logs pod_name -n namespace_name > log.txt
+* Notes:
+  - If pods status is in eviceted status, deleting pod may fix it. `kubectl delete po -n name_space pod_name`
 
 # HelmChart
 * helm uninstall test -n test && helm uninstall test -n imec-test
