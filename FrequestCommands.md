@@ -55,6 +55,9 @@
  * Checking code which went with the commit
     - git show HEAD
     - git show commit_id
+ * Deleting branch
+    - Remote: `git push origin -d Feature/SPR-1232`
+    - Local:  `git branch -D Feature/SPR-12140`	
 ## Rebase [To sync the changes with other branch.]
 * git checkout feature/movies_comment
 * git rebase master
