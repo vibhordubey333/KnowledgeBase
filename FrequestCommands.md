@@ -13,55 +13,6 @@
 * Checkout this solution but first try below command: https://askubuntu.com/questions/856073/mongod-unrecognized-service-mongod-service-is-present-already
 * Start mongodb : sudo mongod --fork --logpath /var/log/mongodb.log
 
-# Git Commands.
-* git branch -v
-* git checkout -b new_branch_name  
-* git checkout branch_to_switch
-* git status
-* git log
-* git add .
-* git commit -m "your_message"
-* git push origin branch_name
-* git diff
-* git remote add origin https://github.com/vibhordubey333/GITCheatSheet.git
-* git remote set-url origin https://github.com/vibhordubey333/GITCheatSheet.git
-* git branch -d localBranchName  // delete branch locally 
-* git push origin --delete remoteBranchName // delete branch remotely
-* To sync changes with master branch or other branch -> git pull origin branch_name
-* git pull origin branch_name
-* Delete local branch [Forcefully] : git branch -D branch_name
-* git commit --amend -m "New commit message."
-* Removing Merge conflicts:
-  - Configure "git mergetool"
-  - Fire "git mergetool"
-  - After conflicts are resolved do below.
-    - git add .
-    - git commit 
-    - git push origin branch_name
- * To fetch remote refs,commits from remote
-    - git fetch -a
- * Git Stash : https://www.linuxfordevices.com/tutorials/linux/git-stash
- * Merge Conflits Remocing Manually
-   - Everything between <<<<<<< and ======= is what was in one file, and
-   - Everything between ======= and >>>>>>> is what was in the other file
- * To resolve Carrige Return Line Feed [CRLF ] windows
-   - git config --list
-   - git config --global core.autocrlf false
- * To refer to private hosted library
-   - git config --global url."git@github.org_name.com:".insteadof "https://github.org_name.com"
- * Configuring name and email in git.
-    - Change Git user name by running: git config user.name “Your Name”
-    - Change Git user email by running: git config user.email “name@email.com”
- * Checking code which went with the commit
-    - git show HEAD
-    - git show commit_id
- * Deleting branch
-    - Remote: `git push origin -d Feature/SPR-1232`
-    - Local:  `git branch -D Feature/SPR-12140`	
-## Rebase [To sync the changes with other branch.]
-* git checkout feature/movies_comment
-* git rebase master
-
 # Linux
 * Killing process by providing process ID: kill 1293
 * Killing process by providing process name : pkill firefox
