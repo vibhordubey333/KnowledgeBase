@@ -56,3 +56,4 @@
     - git clean -fdx
 * Remove file from commit [Not sure though, need to test]
     - git rm -r --cached file_name
+    - https://stackoverflow.com/questions/37422221/git-remove-a-file-from-a-branch-keep-it-in-the-master
