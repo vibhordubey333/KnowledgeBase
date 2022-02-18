@@ -57,3 +57,8 @@
 * Remove file from commit [Not sure though, need to test]
     - git rm -r --cached file_name
     - https://stackoverflow.com/questions/37422221/git-remove-a-file-from-a-branch-keep-it-in-the-master
+* Amend last commit or add new change into last commit, instead of creating one.
+    - `$ (some_branch) git add changelog.md`
+    - If you will use this you can re-write new commit message, `(some_branch) git commit --amend`
+    - Opt for this one if you don't intend to edit the last commit message `(some_branch) git commit --amend --no-edit`
+    - Be careful ! mention the correct branch `$ (some_branch) git push -f origin some_branch`
