@@ -28,6 +28,13 @@
 	export PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\$ '
   	```
   3. source ~/.bashrc
+  4. Add cyclic reverse search in linux:
+  	```
+		add-apt-repository ppa:ultradvorka/ppa
+		apt-get update
+		apt-get install hstr
+		hstr --show-configuration >> ~/.bashrc
+	```
 
 ## Session in Linux
 * Check session : who 
