@@ -35,6 +35,8 @@
 		apt-get install hstr
 		hstr --show-configuration >> ~/.bashrc
 	```
+  5. Fixing broken dependencies in linux:
+     `sudo apt --fix-broken install`
 
 ## Session in Linux
 * Check session : who 
