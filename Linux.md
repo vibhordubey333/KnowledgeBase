@@ -28,3 +28,5 @@
   - apt purge pacakge_name
   - apt auto-remove
   - apt update
+* Killing process running on particular port:
+  - fuser -k 80/tcp
