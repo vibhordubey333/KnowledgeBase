@@ -10,7 +10,10 @@
    `export GO111MODULE=on && export GOPROXY=direct && export GOSUMDB=off`
 * To download go mod dependency from private repository
    `git config --global url."git@github.org_name.com:".insteadof "https://github.org_name.com"`
-
+* In order to save the dependencies locally we use `vendor`. It will save all the dependencies mentioned in go.mod file to the vendor directory.
+   `go mod vendor`
+   
+ 
 # MongoDB.
 * Checkout this solution but first try below command: https://askubuntu.com/questions/856073/mongod-unrecognized-service-mongod-service-is-present-already
 * Start mongodb : sudo mongod --fork --logpath /var/log/mongodb.log
