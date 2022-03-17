@@ -8,6 +8,8 @@
 * GOOS=linux GOARCH=amd64 go build -o main main.go
 * To fix issue "410 Gone" in GO mod
    `export GO111MODULE=on && export GOPROXY=direct && export GOSUMDB=off`
+* To download go mod dependency from private repository
+   `git config --global url."git@github.org_name.com:".insteadof "https://github.org_name.com"`
 
 # MongoDB.
 * Checkout this solution but first try below command: https://askubuntu.com/questions/856073/mongod-unrecognized-service-mongod-service-is-present-already
