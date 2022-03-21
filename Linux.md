@@ -30,3 +30,4 @@
   - apt update
 * Killing process running on particular port:
   - fuser -k 80/tcp
+* When writing data is not important redirect to `/dev/null`
