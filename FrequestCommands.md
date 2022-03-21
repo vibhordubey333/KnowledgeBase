@@ -105,7 +105,7 @@
 * Fireup powershell 
   - Get-NetTCPConnection -LocalPort 9091 | Format-Table -Property LocalAddress, LocalPort, State, OwningProcess
   - taskkill /F /PID 17484
-* Performing Port Forwarsing in windows 10.
+* Performing Port Forwarding in windows 10.
    `It is needed when you're connected over the VPN the local server won't be able to connect`
    - Fetch current IP using `ifconfig`
    - Open cmd with Administrator priviledge
