@@ -105,6 +105,11 @@
 * Fireup powershell 
   - Get-NetTCPConnection -LocalPort 9091 | Format-Table -Property LocalAddress, LocalPort, State, OwningProcess
   - taskkill /F /PID 17484
+* Performing Port Forwarsing in windows 10.
+   `It is needed when you're connected over the VPN the local server won't be able to connect`
+   - Fetch current IP using `ifconfig`
+   - Open cmd with Administrator priviledge
+   - Fire up this command `netsh interface portproxy add v4tov4 listenaddress=127.0.0.1 listenport=9000 connectaddress=192.168.0.10 connectport=80`
 
 # VSCode [Golang Settings For Faster Suggestions.]
 * Paste below settings in settings.json, important is language server settings.
