@@ -23,11 +23,12 @@
 * Fixing broken dependencies in linux:
      `sudo apt --fix-broken install`
 * Uninstalling/Removing packages:
-  - apt list
-  - apt remove package_name
-  - apt purge pacakge_name
-  - apt auto-remove
-  - apt update
+  - List all the packages`apt list`
+  - Remove package `apt remove package_name`
+  - Remove related files to the package`apt purge pacakge_name`
+  - Search for left out binaries `whereis firefox`
+  - Automatically removing unused dependecies `apt auto-remove`
+  - sudo apt update && sudo apt upgrade
 * Killing process running on particular port:
   - fuser -k 80/tcp
 * When writing data is not important redirect to `/dev/null`
