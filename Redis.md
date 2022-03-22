@@ -1,6 +1,6 @@
-REDIS ## Remote Dictionary Service
+#### REDIS => Remote Dictionary Service
 
-###CHEATSHEET
+### CHEATSHEET
 
 > To access CLI(Linux) `redis-cli`
 
