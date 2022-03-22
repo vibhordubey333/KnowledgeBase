@@ -1,4 +1,4 @@
-## Repository contains commands related to below topics, plus explanation toward functionality.
+## Repository contains commands / cheatsheet related to below topics, plus explanation toward functionality.
  
 - Docker
 - Kubernetes 
