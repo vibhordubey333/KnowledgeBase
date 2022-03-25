@@ -32,3 +32,9 @@
 * Killing process running on particular port:
   - fuser -k 80/tcp
 * When writing data is not important redirect to `/dev/null`
+* `instramfs` happens because of corruption of memory. 
+   To Fix `intramfs` error:
+  - Type `df -h` or `blkid`
+  - For each partition fire `fsck /dev/sdXX -y`
+  - Or press `y` each time getting prompt.
+  - Reboot
