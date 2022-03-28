@@ -149,4 +149,12 @@
 # Metasploit
   - sudo apt install metasploit-framework postgresql
   - msfconsole
+
+# VirtualBox Configuration To Resolve Freezing
+ - System
+	- Base Memory `4096 GB`
+	- Processor `2 CPU`
+	- Acceleration -> Paravirtualization Interface `Minimal`
+
+
   
