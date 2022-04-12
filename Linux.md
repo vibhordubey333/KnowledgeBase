@@ -38,3 +38,7 @@
   - For each partition fire `fsck /dev/sdXX -y`
   - Or press `y` each time getting prompt.
   - Reboot
+* Changing password in linux and setting expiration period.
+  - `passwd`
+  - Setting age of password[Days]`chage -M 9999999 root`
+
