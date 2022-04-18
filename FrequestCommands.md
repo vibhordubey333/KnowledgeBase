@@ -91,6 +91,8 @@
 * docker tag image_name new_image_tag_name
 * Debug mongodb inside container 
   - docker exec -it mongoservice mongo
+* Prune old images, containers, volumes
+  - `docker container prune && docker image prune && docker network prune && docker volume prune`
   
 # Kompose Tool.
 * chmod +x kompose_binary_name
