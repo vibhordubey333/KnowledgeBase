@@ -52,6 +52,7 @@
     - To push after reverting `git push -f origin branch_name`
     * Rollback the reverted changes
       - Exactly the same no. of times which you mentioned in reverting `git reset HEAD@3`
+    * Delete the local branch then fetch the changes again for proper sync.
 * Remove un-commited changes
     - git clean -fdx
 * Remove file from commit [Not sure though, need to test]
