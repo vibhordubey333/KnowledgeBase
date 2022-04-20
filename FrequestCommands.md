@@ -158,5 +158,8 @@
 	- Processor `2 CPU`
 	- Acceleration -> Paravirtualization Interface `Minimal`
 
-
+# Node
+- To run installed node packages[`npx redis-cli --help `]
+	- npx redis-cli -p 9000 -h localhost
+	
   
