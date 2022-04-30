@@ -12,6 +12,9 @@
    `git config --global url."git@github.org_name.com:".insteadof "https://github.org_name.com"`
 * In order to save the dependencies locally we use `vendor`. It will save all the dependencies mentioned in go.mod file to the vendor directory.
    `go mod vendor`
+* If Project opened in intellij not detecting project files:
+  - Verify if `GoRoot` is set or not by following below line.
+  - Open `settings` -> `Language & Frameworks` -> `Go` -> `GoPath` -> Set `Project GOPATH`
    
  
 # MongoDB.
