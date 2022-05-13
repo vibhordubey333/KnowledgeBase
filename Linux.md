@@ -41,4 +41,7 @@
 * Changing password in linux and setting expiration period.
   - `passwd`
   - Setting age of password[Days]`chage -M 9999999 root`
+* Creating symbolic links.
+  - Soft links: `ln -s /home/name/Documents/MyFolder /home/name/Desktop/MyFolder`
+  - Hark links: `ln /home/name/Documents/MyFolder /home/name/Desktop/MyFolder`
 
