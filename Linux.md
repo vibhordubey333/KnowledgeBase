@@ -12,6 +12,10 @@
 	export GIT_PS1_SHOWUNTRACKEDFILES=true
 	export PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\$ '
   	```
+	- If getting below error `-bash: __git_ps1: command not found`
+	  Fire -> `curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh`
+	  Add in ~/.bashrc -> `source ~/.git-prompt.sh`
+	
   3. source ~/.bashrc
   4. Add cyclic reverse search in linux:
   	```
@@ -44,4 +48,5 @@
 * Creating symbolic links.
   - Soft links: `ln -s /home/name/Documents/MyFolder /home/name/Desktop/MyFolder`
   - Hark links: `ln /home/name/Documents/MyFolder /home/name/Desktop/MyFolder`
+  
 
