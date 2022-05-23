@@ -49,4 +49,11 @@
   - Soft links: `ln -s /home/name/Documents/MyFolder /home/name/Desktop/MyFolder`
   - Hark links: `ln /home/name/Documents/MyFolder /home/name/Desktop/MyFolder`
   
-
+* Installing applications in Linux
+  - Download .tgz / archive
+  - Untar it.
+  - cp -vfr some_dir/our_inteneded_file /usr/local/ /usr/bin/
+  - Add entry in ~/.bashrc or profile file. [I prefer .bashrc]
+    `# Adding JMeter path
+     export PATH=$PATH:/usr/local/apache-jmeter-5.1.1/bin/`
+  - Exit terminal then re-launch again.
