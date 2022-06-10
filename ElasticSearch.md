@@ -30,3 +30,16 @@
       	- Whenever deletion operation is done it doesn't get deleted instantly. It is marked for deletion then later on when merge  happens behind the scenes to consolidate space then it happens.
 	    - To delete the entire index just mention the index.
 	      - curl -XDELETE 'localhost:9200/product/laptops?pretty'
+       
+      -  Performing Bulk Operations
+	- Fetch items before performing bulk get call 
+	  `curl -XGET 'localhost:9200/product/laptops/1?pretty'`
+	- curl --location --request GET 'http://localhost:9200/_mget?pretty' --header 'Content-Type: application/json' --data-raw '{
+          "docs": [
+			{
+			    "_index": "product",
+			    "_type": "laptops",
+			    "_id": "1"
+			}
+        	 ]
+		}'
