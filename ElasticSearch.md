@@ -1,10 +1,13 @@
 # Elastic Search
+   - Note:
+   	- Use pretty print as pretty=true with version above 8.2
+
    - For windows: ./elasticsearch.bat -Ecluster.name="vibhor.tests" -Enode.name=my_first_node
    - For checking health status.
-     - localhost:9200/_cat/health?v&pretty
+     - localhost:9200/_cat/health?v&pretty=true
      - localhost:9200
    - Creating indices
-     - curl -XPUT 'localhost:9200/products?&pretty'
+     - curl -XPUT 'localhost:9200/products?&pretty=true'
      - Checking created indices: curl -XGET localhost:9200/_cat/indices?v&pretty
    - Retrieving complete and partial documents
      - curl -X PUT localhost:9200/products/mobiles/3?pretty -H 'Content-Type: application/json' -d '{"name":"Iphone7","reviews":["Super","Awesome"]}'
