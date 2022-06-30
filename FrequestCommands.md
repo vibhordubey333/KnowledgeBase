@@ -17,11 +17,12 @@
   - Open `settings` -> `Language & Frameworks` -> `Go` -> `GoPath` -> Set `Project GOPATH`
 * To run test case:
   - `go test -run Test_Case_Name`
-  - Various flags for running testcases```
+  - Various flags for running testcases
+  ` 
      -v             for verbosity
      -race          to detect race condition
      -timeout       for the timeout of the test
-    ```
+    `
    
  
 # MongoDB.
