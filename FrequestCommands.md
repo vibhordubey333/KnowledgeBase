@@ -15,7 +15,7 @@
 * If Project opened in intellij not detecting project files:
   - Verify if `GoRoot` is set or not by following below line.
   - Open `settings` -> `Language & Frameworks` -> `Go` -> `GoPath` -> Set `Project GOPATH`
-* To run test case:
+* To run test case with similar pattern
   - `go test -run Test_Case_Name`
   - Various flags for running testcases
   ` 
@@ -23,6 +23,8 @@
      -race          to detect race condition
      -timeout       for the timeout of the test
     `
+  - To run specific single TC
+  	`go test -run "^NameOfTest$"`
    
  
 # MongoDB.
