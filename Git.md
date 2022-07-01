@@ -46,6 +46,13 @@
 * Rebase [To sync the changes with other branch.]
     - git checkout feature/movies_comment
     - git rebase master
+* Mistake in commit, not pushed 
+    -Undo a commit & redo
+     ` $ git commit -m "Something terribly misguided" # (0: Your Accident)
+      $ git reset HEAD~                              # (1)
+      [ edit files as necessary ]                    # (2)
+      $ git add .                                    # (3)
+      $ git commit -c ORIG_HEAD                      # (4)`
 * Reverting the changes
     - git log -5
     - git reset HEAD~3
