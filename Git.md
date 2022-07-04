@@ -71,3 +71,5 @@
     - If you will use this you can re-write new commit message, `(some_branch) git commit --amend`
     - Opt for this one if you don't intend to edit the last commit message `(some_branch) git commit --amend --no-edit`
     - Be careful ! mention the correct branch `$ (some_branch) git push -f origin some_branch`
+* Remove file after performing `git add file_name`
+    - `git reset file_name`
