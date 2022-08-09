@@ -174,5 +174,10 @@
 # Node
 - To run installed node packages[`npx redis-cli --help `]
 	- npx redis-cli -p 9000 -h localhost
-	
+
+# Graphql
+ - To initialize and run.
+	`go get github.com/99designs/gqlgen`
+	`go run github.com/99designs/gqlgen init`
+
   
