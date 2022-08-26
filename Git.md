@@ -73,3 +73,6 @@
     - Be careful ! mention the correct branch `$ (some_branch) git push -f origin some_branch`
 * Remove file after performing `git add file_name`
     - `git reset file_name`
+* Create a new branch and push it to remote repository
+    - `git checkout -b Feature/Bug_ID`
+    - `git push origin Above_created_Branch_Name`
