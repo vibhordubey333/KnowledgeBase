@@ -25,10 +25,10 @@
     `
   - To run specific single TC
   	`go test -run "^NameOfTest$"`
-  - To create HTTPS server use `http.ListenAndServeTLS` it will need server.crt and server.key as arguements. Generate using below commands.
-    - //go:generate openssl genrsa -out server.key 2048
-    - //go:generate openssl ecparam -genkey -name secp384r1 -out server.key
-    - //go:generate openssl req -new -x509 -sha256 -key server.key -out server.pem -days 3650
+ * To create HTTPS server use `http.ListenAndServeTLS` it will need server.crt and server.key as arguements. Generate using below commands.
+   - //go:generate openssl genrsa -out server.key 2048
+   - //go:generate openssl ecparam -genkey -name secp384r1 -out server.key
+   - //go:generate openssl req -new -x509 -sha256 -key server.key -out server.pem -days 3650
    
  
 # MongoDB.
