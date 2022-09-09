@@ -76,3 +76,20 @@
 * Create a new branch and push it to remote repository
     - `git checkout -b Feature/Bug_ID`
     - `git push origin Above_created_Branch_Name`
+* Error code's defined in GIT.
+  ```#define Z_OK            0
+   #define Z_STREAM_END    1
+   #define Z_NEED_DICT     2
+   #define Z_ERRNO        (-1)
+   #define Z_STREAM_ERROR (-2)
+   #define Z_DATA_ERROR   (-3)
+   #define Z_MEM_ERROR    (-4)
+   #define Z_BUF_ERROR    (-5)
+   #define Z_VERSION_ERROR (-6)```
+ * For Git error `fatal: pack has bad object at offset 196326059: inflate returned 1 fatal: fetch-pack: invalid index-pack output`
+   ```
+   git config --global core.compression 0
+   git clone --depth 1 ssh://username@domain.com/path/to/git_repo/
+   git fetch --unshallow //For retrieving rest of the repo
+   git pull --all
+   ```
