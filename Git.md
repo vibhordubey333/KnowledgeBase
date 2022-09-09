@@ -93,3 +93,6 @@
    git fetch --unshallow //For retrieving rest of the repo
    git pull --all
    ```
+   - May be you'll not be able to fetch all the branches inspite of doing `git pull --all` and `git fetch --all`.
+   - Find the remote origin `git config --list` -> `remote.origin.url=git@github.org_name.com:org_name/repo_name.git`
+   - `git remote set-url origin git@github.org_name.com:org_name/repo_name.git`
