@@ -183,5 +183,10 @@
  - To initialize and run.
 	`go get github.com/99designs/gqlgen`
 	`go run github.com/99designs/gqlgen init`
-
+	
+# Postgressql
+ - sudo -u postgres createuser --superuser $USER
+ - sudo service postgresql start
+ - sudo -u postgres psql
+ - Login into psql shell: -> `\password postgres`
   
