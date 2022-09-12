@@ -26,6 +26,12 @@
 	```
 * Fixing broken dependencies in linux:
      `sudo apt --fix-broken install`
+* Removing Unused libraries/packages
+  ``` 
+   sudo apt-get autoclean #to clean up outdated package deb files
+   sudo apt-get autoremove #to remove any unused dependencies
+   sudo apt-get clean #to clean up apt cache
+   ```
 * Uninstalling/Removing packages:
   - List all the packages`apt list`
   - Remove package `apt remove package_name`
