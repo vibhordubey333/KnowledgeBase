@@ -29,6 +29,9 @@
    - //go:generate openssl genrsa -out server.key 2048
    - //go:generate openssl ecparam -genkey -name secp384r1 -out server.key
    - //go:generate openssl req -new -x509 -sha256 -key server.key -out server.pem -days 3650
+  
+  ### Go Libraries
+  	*To pretty print struct "github.com/davecgh/go-spew/spew"
    
  
 # MongoDB.
