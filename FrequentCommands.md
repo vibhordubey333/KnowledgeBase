@@ -192,4 +192,9 @@
  - sudo service postgresql start
  - sudo -u postgres psql
  - Login into psql shell: -> `\password postgres`
+
+# C++
+ - g++ test.cpp -o test
+ - g++ test.cpp `Binary will get created with a.exe`
+ - Place `mingw` and set env path. Refer GDrive
   
