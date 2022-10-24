@@ -63,3 +63,10 @@
     `# Adding JMeter path
      export PATH=$PATH:/usr/local/apache-jmeter-5.1.1/bin/`
   - Exit terminal then re-launch again.
+* Enabling SSH server in Debian
+  - sudo apt update 
+  - sudo apt install openssh-server
+  - sudo systemctl status ssh
+  - sudo ufh allow ssh
+  - ip a
+
