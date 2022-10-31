@@ -69,4 +69,10 @@
   - sudo systemctl status ssh
   - sudo ufh allow ssh
   - ip a
+* .vimrc File Creation. Launch Vim then create accordingly
+   ```
+     :e $HOME/.vimrc  " on Unix, Mac or OS/2
+     :e $HOME/_vimrc  " on Windows
+     :e s:.vimrc      " on Amiga
+   ```
 
