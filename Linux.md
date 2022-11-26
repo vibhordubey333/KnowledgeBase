@@ -12,8 +12,8 @@
 	export GIT_PS1_SHOWUNTRACKEDFILES=true
 	export PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\$ '
   	```
-	- If getting below error `-bash: __git_ps1: command not found`
-	  Fire -> `curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh`
+	- If getting below error `-bash: __git_ps1: command not found` <br/>
+	  Fire -> `curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh` <br/>
 	  Add in ~/.bashrc -> `source ~/.git-prompt.sh`
 	
   3. source ~/.bashrc
