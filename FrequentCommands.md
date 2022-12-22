@@ -88,32 +88,6 @@
 # HelmChart
 * helm uninstall test -n test && helm uninstall test -n imec-test
 
-# Docker.
-* To save an Image locally as tar : docker save hello-world > hello-world.tar 
-* To extract above tar : tar -xfv hello-world.tar'
-* docker images
-* docker rmi -f image_name
-* docker container ls -a
-* docker container stop container_name
-* docker container prune
-* docker-compose up
-* docker-compose up [Detached Mode]
-* docker exec -it container_name /bin/bash
-* docker build -f build/Dockerfile -t tag_name
-* docker-compose ps [To List All The Containers]
-* docker-compose -f build/docker-compose.yml up -d 
-* docker run -d -p 127.0.0.1:7777 filemgmt:latest
-* docker-compose rm
-* Push images to private docker registry.
-  - docker tag ubuntu altimauthserver.com:6010/ubuntu
-  - docker push altimauthserver.com:6010/ubuntu
-* docker info
-* docker tag image_name new_image_tag_name
-* Debug mongodb inside container 
-  - docker exec -it mongoservice mongo
-* Prune old images, containers, volumes
-  - `docker container prune && docker image prune && docker network prune && docker volume prune`
-  
 # Kompose Tool.
 * chmod +x kompose_binary_name
 * ./kompose -f ./build/docker-compose.yml convert .
