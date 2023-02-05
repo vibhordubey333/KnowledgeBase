@@ -9,7 +9,9 @@
 3. To set project on terminal:<br/>
    `gcloud config set project [project-ID]`<br/>
    You can get all projects here: https://console.cloud.google.com/welcome/
-   
+
+4. To list compute:<br/>
+   `gcloud compute instances list`<br/>
    
 4. To delete projects: <br/>
   Navigate to this page: https://console.cloud.google.com/cloud-resource-manager <br/>
