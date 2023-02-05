@@ -12,6 +12,8 @@
 
 4. To list compute:<br/>
    `gcloud compute instances list`<br/>
+
+5. To SSH created VM in compute: `gcloud compute ssh <project-id> --zone <your-zone>`
    
 4. To delete projects: <br/>
   Navigate to this page: https://console.cloud.google.com/cloud-resource-manager <br/>
