@@ -75,4 +75,9 @@
      :e $HOME/_vimrc  " on Windows
      :e s:.vimrc      " on Amiga
    ```
-
+* Provide admin access to existing user
+   - su root 
+   - nano /etc/sudoers
+   - Then add the user below admin user like below syntax.
+   - user_name ALL=(ALL)  ALL
+ 
