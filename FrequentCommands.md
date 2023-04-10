@@ -108,6 +108,9 @@
    - Fire up this command `netsh interface portproxy add v4tov4 listenaddress=127.0.0.1 listenport=9000 connectaddress=192.168.0.10 connectport=80`
    - To remove the rule return to cmd and fire `netsh interface portproxy delete v4tov4 listenaddress=127.0.0.1 listenport=9000`
    - Original Post https://www.onmsft.com/how-to/how-to-configure-port-forwarding-on-a-windows-10-pc
+* To Add Path To Windows Env From CMD
+   - Syntax: `PATH=$PATH:"YOUR-DESIRED-PATH-HERE"`<br/>
+	Like: `PATH=$PATH:"C:\Program Files (x86)\GnuWin32\bin"`
 
 # VSCode [Golang Settings For Faster Suggestions.]
 * Paste below settings in settings.json, important is language server settings.
