@@ -99,3 +99,10 @@
 		Type=Applications
 		``` 
 		`Exec` It is the command through which you can launch your application in terminal.
+	* Creating icon for special users:
+		If you want to create an icon which can be visible for just one user or special users, you create something in `/home/ directories`
+		```
+		cd /home/<user-name>/.local/share/applications
+ 		touch <application-name>.desktop
+		```
+		
