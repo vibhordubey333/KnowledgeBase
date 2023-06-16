@@ -81,3 +81,21 @@
    - Then add the user below admin user like below syntax.
    - user_name ALL=(ALL)  ALL
  
+* Listing/Creating Icons In Linux
+	* Creating icons for all users:
+	 	```		
+		cd /usr/share/applications
+		sudo touch <application-name>.desktop
+		```
+		<br/>
+	   After creating .desktop file.Place below code into it
+	   After you create the .desktop file[1], edit this file like below and save it:
+
+		```
+		[Desktop Entry]
+		Name=Goland
+		Exec=goland
+		Icon=
+		Type=Applications
+		``` 
+		`Exec` It is the command through which you can launch your application in terminal.
