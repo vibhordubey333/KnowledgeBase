@@ -96,7 +96,8 @@
    - May be you'll not be able to fetch all the branches inspite of doing `git pull --all` and `git fetch --all`.
    - Find the remote origin `git config --list` -> `remote.origin.url=git@github.org_name.com:org_name/repo_name.git`
    - `git remote set-url origin git@github.org_name.com:org_name/repo_name.git`
-
+ * Set local repo configuration:
+   -   `git config user.email="vibhordubey333@gmail.com" --local`
 
 #### Issues:
   1. **unable to access Could not resolve proxy:**
