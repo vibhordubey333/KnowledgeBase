@@ -96,11 +96,12 @@
    - May be you'll not be able to fetch all the branches inspite of doing `git pull --all` and `git fetch --all`.
    - Find the remote origin `git config --list` -> `remote.origin.url=git@github.org_name.com:org_name/repo_name.git`
    - `git remote set-url origin git@github.org_name.com:org_name/repo_name.git`
- * Set local repo configuration:
-   -   `git config user.email="vibhordubey333@gmail.com" --local`
- * Handling multiple configurations in one machine
-   - https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine/
-   - Note: When creating .gitconfig-perfonal/work enter 1 extra space 
+ * Set local repo configuration:<br/>
+   -   `git config user.email="vibhordubey333@gmail.com" --local`<br/>
+ 
+ * Handling multiple configurations in one machine<br/>
+   - https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine/<br/>
+   - Note: When creating .gitconfig-perfonal/work enter 1 extra space <br/>
 
 #### Issues:
   1. **unable to access Could not resolve proxy:**
