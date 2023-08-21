@@ -98,6 +98,9 @@
    - `git remote set-url origin git@github.org_name.com:org_name/repo_name.git`
  * Set local repo configuration:
    -   `git config user.email="vibhordubey333@gmail.com" --local`
+ * Handling multiple configurations in one machine
+   - https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine/
+   - Note: When creating .gitconfig-perfonal/work enter 1 extra space 
 
 #### Issues:
   1. **unable to access Could not resolve proxy:**
