@@ -1,3 +1,5 @@
+### Installing:
+* https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
 ### Docker Frequently Used CMD's
 
 * To save an Image locally as tar : docker save hello-world > hello-world.tar 
