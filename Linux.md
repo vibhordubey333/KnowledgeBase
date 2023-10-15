@@ -1,4 +1,5 @@
 # Linux
+* Installing terminal `sudo apt-get install xfce4-terminal`
 * Killing process by providing process ID: kill 1293
 * Killing process by providing process name : pkill firefox
 * Running process in background : firefox&
