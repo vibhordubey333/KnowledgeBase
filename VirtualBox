@@ -1,0 +1,26 @@
+1. If VirtualBox GuestAddition is working.
+_source:_ https://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm
+
+```
+Here are the manual steps to install VirtualBox Guest Additions kernel modules inside the VM:
+
+    Download the ISO file, e.g.
+
+    wget http://download.virtualbox.org/virtualbox/5.0.20/VBoxGuestAdditions_5.0.20.iso -P /tmp
+
+    Mount the ISO file:
+
+    sudo mount -o loop /tmp/VBoxGuestAdditions_5.0.20.iso /mnt
+
+    Run installer (add -x after sh to debug):
+
+    sudo sh /mnt/VBoxLinuxAdditions.run
+
+To find the right version of ISO file, check it at: http://download.virtualbox.org/virtualbox/
+
+If you're using Vagrant, installation is much simpler by following these commands:
+
+vagrant plugin install vagrant-vbguest
+vagrant up
+vagrant vbguest
+```
