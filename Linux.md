@@ -106,4 +106,5 @@
 		cd /home/<user-name>/.local/share/applications
  		touch <application-name>.desktop
 		```
-		
+* To Make Terminal Forget All Remembered Path:
+   * `hash -r`
