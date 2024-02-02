@@ -24,3 +24,5 @@ vagrant plugin install vagrant-vbguest
 vagrant up
 vagrant vbguest
 ```
+
+2. Desktop environment: `sudo aptitude install kubuntu-desktop`
