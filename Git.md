@@ -102,6 +102,8 @@
  * Handling multiple configurations in one machine<br/>
    - https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine/<br/>
    - Note: When creating .gitconfig-perfonal/work enter 1 extra space <br/>
+ * Deleting files from Github without deleting them locally:
+   - `git rm --cached ssh_deployment  ssh_deployment.pub`
 
 #### Issues:
   1. **unable to access Could not resolve proxy:**
