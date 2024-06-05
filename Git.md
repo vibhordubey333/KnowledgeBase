@@ -104,6 +104,7 @@
    - Note: When creating .gitconfig-perfonal/work enter 1 extra space <br/>
  * Deleting files from Github without deleting them locally:
    - `git rm --cached ssh_deployment  ssh_deployment.pub`
+  
 
 #### Issues:
   1. **unable to access Could not resolve proxy:**
@@ -111,3 +112,9 @@
      export http_proxy=""
      export https_proxy=""
      ```
+  2. **Accessing multiple github accounts from same machine**
+     -  Use https to clone <br/>
+     -  Configure `git remote set-url origin https://vibhordubey333@github.com/vibhordubey333/POC.git` <br/>
+     - Use personal token in `token` <br/>
+     Reference:  https://stackoverflow.com/questions/3860112/multiple-github-accounts-on-the-same-computer <br/>
+        
