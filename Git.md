@@ -104,6 +104,11 @@
    - Note: When creating .gitconfig-perfonal/work enter 1 extra space <br/>
  * Deleting files from Github without deleting them locally:
    - `git rm --cached ssh_deployment  ssh_deployment.pub`
+ * Renaming a branch
+   ```
+    git branch -m old_branch new_branch         # Rename branch locally
+    git push --set-upstream origin new_branch   # Push the new branch, set local branch to 
+   ```
   
 
 #### Issues:
