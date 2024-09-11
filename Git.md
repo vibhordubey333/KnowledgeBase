@@ -5,6 +5,7 @@
 * git status
 * git log
 * git add .
+* To exlude file from git add : `git add . :^.env`
 * git commit -m "your_message"
 * git push origin branch_name
 * git diff
