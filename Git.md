@@ -110,6 +110,8 @@
     git branch -m old_branch new_branch         # Rename branch locally
     git push --set-upstream origin new_branch   # Push the new branch, set local branch to 
    ```
+* Combining more than one commit into one. <br/>
+  `git merge --squash`  <br/>
   
 
 #### Issues:
