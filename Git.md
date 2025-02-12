@@ -1,6 +1,7 @@
 # Git Commands.
 * git branch -v
-* git checkout -b new_branch_name  
+* git checkout -b new_branch_name
+* Go to previous branch without mentioning the branch name `git checkout -`
 * git checkout branch_to_switch
 * git status
 * git log
